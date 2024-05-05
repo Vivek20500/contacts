@@ -11,6 +11,7 @@ function App(){
                 <Card name="Deadpool" phone="1234 2344 23" img="https://source.unsplash.com/random/?anime"/>
                 <Card name="Spiderman" phone="1234 7654 23" img="https://source.unsplash.com/random/?india"/>
                 <Card name="Black widow" phone="1234 2884 23" img="https://source.unsplash.com/random/?colour"/>
+                <Card name="Black panther" phone="1564 2884 23" img="https://source.unsplash.com/random/?youtube"/>
             </div>
         </div>
     )

@@ -4,7 +4,7 @@ function Header(){
     return(
         <div className="header">
             <h1>
-                Hello World
+                My Contacts
             </h1>
         </div>);
 }

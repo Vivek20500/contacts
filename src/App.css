@@ -25,6 +25,9 @@
     justify-content: space-evenly;
     border-radius: 10px;
 }
+.key{
+    color: black;
+}
 @media screen and (max-width:800px){
     .card{
         width: 100%;

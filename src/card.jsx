@@ -5,7 +5,7 @@ function Card(props){
         <div className="card">
             <img height={h} width={h} src={props.img} alt={"hello"} ></img>
             <p className="name">{props.name}</p>
-            <p>{props.phone}</p>
+            <p className="tel">{props.phone}</p>
         </div>);
 }
 export default Card;

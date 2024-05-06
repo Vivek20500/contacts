@@ -1,16 +1,13 @@
 import React from "react";
+import Emoji from "./emoji-info";
 import Card from "./card";
 import Header from "./header";
 import "./App.css";
-import contact from "./contacts";
 
-function Cardinfo(contact){
-    return <Card 
-    key={contact.id}
-    id={contact.id}
-    name={contact.name} 
-    info={contact.info}
-    pics={contact.imgLk} />
+function Cardinfo(Emoji){
+    return <Card emoji={Emoji.emoji}
+    name={Emoji.name}
+    meaning={Emoji.meaning} />
 }
 
 function App(){
@@ -18,7 +15,7 @@ function App(){
         <div className="next">
             <Header />
             <div className="card-cont">
-                {contact.map(Cardinfo)}
+                {Emoji.map(Cardinfo)}
             </div>
         </div>
     )

@@ -28,7 +28,7 @@ const Emoji=[{
     meaning:"Love of something or someone, Craze, Fascination, Adoration"
 },
 {
-    id:5,
+    id:6,
     emoji:"😍",
     name:"Smiling Face with Heart-Eyes",
     meaning:"Love of something or someone, Craze, Fascination, Adoration"

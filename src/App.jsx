@@ -5,7 +5,9 @@ import Header from "./header";
 import "./App.css";
 
 function Cardinfo(Emoji){
-    return <Card emoji={Emoji.emoji}
+    return <Card 
+    key={Emoji.id}
+    emoji={Emoji.emoji}
     name={Emoji.name}
     meaning={Emoji.meaning} />
 }
